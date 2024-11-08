@@ -15,7 +15,7 @@ Adicionalmente se implmentó el patron Command para garantizar la separación y 
 
 ![image](https://github.com/user-attachments/assets/1decca11-7f99-47d4-92cd-799dba4c1d4f)
 
-Como parte de la prueba, se agregó una estructura de datos que simula una base de datos para almacenar cada una de las transacciones realizadas para consultas futuras con fines ilustrativos.
+Como parte de la prueba, se agregó una estructura de datos que simula una base de datos en memoria para almacenar cada una de las transacciones realizadas para consultas futuras con fines ilustrativos. En esta se guardan un número identificador de la transacción que es autoincremental, el monto de la transacción y el tipo de transacción realizada.
 
 A través del menú puedo registrar un ingreso, un gasto, conocer el saldo basado en los movimientos de ingresos y gastos, conocer todos los movimientos que incluyen ingresos y gastos, además permite ver movimientos asociados solo a ingresos o solo a gastos.
 
